@@ -1,0 +1,88 @@
+<div class="container">
+
+<!--    <div class="button">-->
+<!--        <button type="capsule" value="capsule" onclick="nextPage">-->
+<!--            -->
+<!--        </button>-->
+<!--    </div>-->
+<!--    <marquee>-->
+<!--        This project is under construction. Please be patient.-->
+<!--    </marquee>-->
+    <div class="heading" style="height: 10%;">
+        <image src="{{imgSrc1}}" class="logo"></image>
+        <image src="{{imgSrc2}}" class="profilePic"></image>
+    </div>
+
+    <div class="title">
+        <text >
+            {{ title }}
+        </text>
+    </div>
+<!--    <div class="search">-->
+<!--        <input type="text" class="txtBx" value="search"></input>-->
+<!--    </div>-->
+    <div class="search">
+        <search id="search" hint="Search" searchbutton="Search" @search="onInit"></search>
+<!--        <input type="button" id="filter"  onclick="page3"><image src="common/filter.png"></image></input>-->
+        <image src="common/filter.png" id="filter"  onclick="page3" ></image>
+    </div>
+<!--    <image src="common\shoe_general.png"></image>-->
+
+
+    <div class="notify">
+        <image src="{{imgSrc3}}" class="shoeGeneral"></image>
+        <div class="upComing">
+            <text>
+                Running Unisex Shoes
+            </text>
+            <text id="expect">
+                Coming soon...
+            </text>
+        </div>
+        <div class="notifyMe">
+            <switch showtext="false"></switch>
+            <text >notify me</text>
+        </div>
+    </div>
+    <div class="category">
+        <div id="category">
+            <text>
+                Categories
+            </text>
+        </div>
+        <div class="btn">
+            <input type="button" id="btn" value="Shoes"></input>
+            <input type="button" id="btn" value="Table"></input>
+            <input type="button" id="btn" value="Cupboard"></input>
+            <input type="button" id="btn" value="Sofa"></input>
+        </div>
+    </div>
+    <div class="popShoes">
+        <div id="popShoes">
+            <text>
+                Popular Shoes
+            </text>
+        </div>
+        <div class="shoeImage">
+            <div class="shoe1">
+                <image src="{{imgSrc4}}" class="shoe" onclick="page2"></image>
+                <div class="shoeInfo">
+                    <div id="line1"><text>Running Unisex Shoes</text></div>
+                    <div id="line2"><text>Edition 1</text></div>
+                    <div id="line3"><text>Rs 1400/-</text></div>
+                </div>
+            </div>
+
+            <div class="shoe2">
+                <image src="{{imgSrc5}}"class="shoe" onclick="page2_1"></image>
+                <div class="shoeInfo">
+                    <div id="line1"><text>Running Unisex Shoes</text></div>
+                    <div id="line2"><text>Edition 1</text></div>
+                    <div id="line3"><text>Rs 2200/-</text></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

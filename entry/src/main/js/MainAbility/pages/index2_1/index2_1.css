@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    margin: 40px;
+    height: 100%;
+    font-family: HYQiHei-65S;
+
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+}
+
+/*.title {*/
+/*    font-size: 60px;*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*    height: 40%;*/
+/*    margin: 10px;*/
+/*}*/
+.heading {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 8%;
+    margin: 10px;
+    justify-content: space-between;
+}
+.nav{
+    background-color: #ffb8b8b8;
+    color: black;
+    border-radius: 10fp;
+    font-weight: bold;
+}
+
+.shoeGeneral{
+    width: 100%;
+    height: 30%;
+}
+
+.title {
+    font-size: 25px;
+    text-align: left;
+    width: 100%;
+    height: 40%;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20fp ;
+}
+#details{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20fp ;
+}
+.radio{
+    padding: 15fp;
+    margin: 0fp;
+
+}
+.info{
+    justify-content: space-between;
+}
+.color{
+    width: 100%;
+    justify-content: space-between;
+    padding: 10fp;
+    padding-left: 0fp;
+}
+.text{
+    font-weight: bold;
+    align-items: center;
+}
+.number{
+    background-color: blue;
+/*    padding: 12px;*/
+    border-radius: 10fp;
+}
+#qty{
+    color: white;
+    font-weight: bold;
+}
+#op{
+    border-radius: 10fp;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    margin: 8fp;
+}
+/*#op:active{*/
+/*    width: default;*/
+/*    height: default;*/
+/*    background-color: #ffeeeeee;*/
+/*    border-radius: 10fp;*/
+/*    font-weight: bold;*/
+/*!*    background-color: white;*!*/
+/*    color: black;*/
+/*    margin: 8fp;*/
+/*}*/
+
+.btn1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    background-color: #fff1f0f0;
+    color: black;
+    border-radius: 10fp;
+    width: 100%;
+
+}
+.end{
+    width: 100%;
+    justify-content: space-between;
+    padding: 20fp;
+    height: 25%;
+}
+.fav{
+/*    width: 10%;*/
+    background-color: #ffffff;
+    border: 5px solid #ffeaeaea;
+}
+.fav:active{
+    background-color: red;
+}
+.addCart{
+    border-radius: 10fp;
+    width: 70%;
+    font-weight: bold;
+}
+
+.size{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+
+

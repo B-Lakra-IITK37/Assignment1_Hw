@@ -1,0 +1,77 @@
+<div class="container" style="margin-top: 30px;margin-right: 30px;margin-left: 30px;margin-bottom: 30px;">
+    <div class="heading">
+        <input type="button" class="nav" value="<" onclick="page1"></input>
+        <text class="title1">
+            {{ title }}
+        </text>
+        <input type="button" id="dot" class="nav" value=".."></input>
+    </div>
+
+    <div class="title">
+        <text class="gender">
+            {{gender}}
+        </text>
+    </div>
+    <div >
+        <input type="button" class="btn1" style="background-color:{{myStyle}};" value="Male" style="padding-right: 20px"onclick="change"></input>
+        <input type="button" class="btn1" style="background-color:{{myStyle}};" value="Female"onclick="change"></input>
+        <input type="button" class="btn1" style="background-color:{{myStyle}};" value="Both"onclick="change"></input>
+    </div>
+    <div class="title">
+        <text class="category">
+            {{category}}
+        </text>
+    </div>
+    <div>
+        <select class="btn1" id="select" >
+            <option value="select">Select Category</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Table">Table</option>
+            <option value="Cupboard">Cupboard</option>
+            <option value="Sofa">Sofa</option>
+        </select>
+    </div>
+    <div class="title">
+    <text class="brand">
+            {{brand}}
+        </text>
+    </div>
+    <div>
+        <select id="select"class="btn1">
+            <option value="select">Select Brand</option>
+            <option value="Adidas">Adidas</option>
+            <option value="Woodland">Woodland</option>
+            <option value="Nike">Nike</option>
+            <option value="Campus">Campus</option>
+        </select>
+    </div>
+    <div class="title">
+        <text class="price">
+            {{price}}
+        </text>
+    </div>
+        <div>
+        <div class="slider">
+<!--            <text>Starting price: {{startValue}}</text>-->
+            <text>Current price: {{currentValue}}</text>
+<!--            <text>Ending price: {{endValue}}</text>-->
+            <slider min="1000" max="10000" value="{{value}}" onchange="setValue" ></slider>
+        </div>
+    </div>
+    <div class="title">
+        <text class="size">
+            {{size}}
+        </text>
+    </div>
+    <div>
+        <input type="button" id="btn" style="background-color:{{myStyle}};" onclick="change">6 inches</input>
+        <input type="button" id="btn" style="background-color:{{myStyle}};" onclick="change">7 inches</input>
+        <input type="button" id="btn" style="background-color:{{myStyle}};" onclick="change">8 inches</input>
+        <input type="button" id="btn" style="background-color:{{myStyle}};" onclick="change">9 inches</input>
+    </div>
+    <div class="action">
+        <input type="button" id="Clear" class="btn1">Clear All</input>
+        <input type="button" id="Add" class="btn1" onclick="page1">Add</input>
+    </div>
+
+</div>

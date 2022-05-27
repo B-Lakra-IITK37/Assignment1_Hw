@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="heading">
+        <input type="button" class="nav" value="<" onclick="page1"></input>
+        <text class="title1">Detail</text>
+        <input type="button" id="dot" class="nav" value=".."></input>
+    </div>
+    <image src="common/shoe1.jpg" class="shoeGeneral"></image>
+
+    <div class="details">
+        <text class="tile" id="details">Running Unisex Shoes</text>
+    </div>
+    <div class="price">
+        <text>
+            Rs. 1400/-
+        </text>
+    </div>
+    <div  class="info">
+        <text>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, blanditiis fugit illum quidem atquequaerat suscipit possimus impedit cupiditate corporis
+        </text>
+    </div>
+    <div class="color">
+        <div class="text">
+            <text>
+               Color
+            </text>
+        </div>
+        <div class="button">
+            <input type="radio" class="radio"></input>
+            <input type="radio" class="radio"></input>
+            <input type="radio" class="radio"></input>
+        </div>
+        <div class="number">
+            <input type="button" value="+" id="op" onclick="increment"></input>
+            <text id="qty">{{number}}</text>
+            <input type="button" value="-" id="op" onclick="decrement"></input>
+        </div>
+    </div>
+
+    <div class="size">
+        <text >Available Size</text>
+    </div>
+    <div>
+        <input type="button" class="btn1">6 inches</input>
+        <input type="button" class="btn1">7 inches</input>
+        <input type="button" class="btn1">8 inches</input>
+        <input type="button" class="btn1">9 inches</input>
+    </div>
+    <div class="end">
+        <input type="button" class="fav"></input>
+        <input type="button" class="addCart">Add to Cart</input>
+    </div>
+</div>
