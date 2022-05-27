@@ -3,5 +3,6 @@ Note: This repository has only the entry file. So to check the working please su
 
 UI of the app is built in JS for HarmonyOS
 Pages
-#App Screens
+## App Screens
+![Home Page](page1.png)
 
