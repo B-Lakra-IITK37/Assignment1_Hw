@@ -1,4 +1,4 @@
-# Assignment1_HW
+# Ecom_App
 
 UI of the app is built in JS for HarmonyOS
 Pages
