@@ -1,6 +1,5 @@
 # Ecom_App
-
-UI of the app is built in JS for HarmonyOS
+Dynamic E-commerce app in HarmonyOs. Demo version
 Pages
 ## App Screens
 ### Home Page
